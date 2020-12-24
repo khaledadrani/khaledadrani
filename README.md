@@ -6,7 +6,7 @@
 - 💬 Ask me about something you need help with.
 - 📫 How to reach me: khaledadrani@gmail.com
 - 😄 Pronouns: Adrani, Ladrani
-- ⚡ Fun fact: I may look and behave intimdatily but I swear I'm friendly :D
+- ⚡ Fun fact: I may look and behave like if I have a problem with you but I swear I'm friendly :D
 --> So welcome!
 
 [![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=KhaledAdrani1997&show_icons=true&theme=radical)](https://github.com/KhaledAdrani1997/github-readme-stats)
