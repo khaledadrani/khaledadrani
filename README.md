@@ -79,14 +79,9 @@
 
  <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<i><b>Git Activeness</b></i></p>
  
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=khaledadrani&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" width="400px" alt="readme-stats" /></p>
-<p>&nbsp;<img align="right" src="https://github-readme-stats.vercel.app/api?username=khaledadrani&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" /></p>
-<br><br><br><br><br>
-
-<br>
-<br>
-<br>
-<hr>
+<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=khaledadrani&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" width="400px" alt="readme-stats" /></p>
+<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khaledadrani&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" /></p>
+<br><br>
 
 <p align="center"><img src="https://media.giphy.com/media/QaMcXSekUWx7aogAUr/giphy.gif" width="30px" />&nbsp;Git profile Trophies
 <br>
