@@ -6,7 +6,7 @@
 <p align="left"> 
 <img src="https://komarev.com/ghpvc/?username=khaledadrani&color=brightgreen" alt="watching_count" />
  </p>
- <p align="center">
+ <p align="left">
 <img src="https://img.shields.io/badge/Age-24-blue" />
   <img src="https://img.shields.io/badge/Focus-Data%20Science-brightgreen" />
   <img src="https://img.shields.io/badge/Lives-Tunisia-success" />
@@ -14,84 +14,91 @@
 </p>
 
 <hr>
-<h1 align="center">Hi <img src="https://raw.githubusercontent.com/ABSphreak/ABSphreak/master/gifs/Hi.gif" width="30px">, I am Khaled Adrani </h1>
-<h3 align="center">Computer Science Enthusiast | Data Scientist | Software Engineer </h3>
+<h1 align="left">Hi, I am Khaled Adrani </h1>
+<h3 align="left">Computer Science Enthusiast | Data Scientist | Software Engineer </h3>
 
-<p align="center">
+<p align="left">
+  <em>
+    Hello, I am Khaled Adrani, a <b>junior</b> Computer Science Engineer from <a href="http://www.enicarthage.rnu.tn/"> <b>the National Engineering School of Carthage</b>, Tunisia</a>. <br>
+    I would define myself as Problem-Oriented Engineer. I genuinely care about solving problems. <br>
+    My skill set is focued around Data Science, however, I do not hesitate to expand it in other fields like web development.<br>
+    Want to discuss innovative ideas? Or having a request? Contact me!
+    
+  </em> 
+<br>
+
+<p align="left">
 <a href="https://www.linkedin.com/in/khaled-adrani/"><img src="https://img.shields.io/badge/-Linkedin-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
 <a href="mailto:khaledadrani@mail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.codewars.com/users/khaledadrani"><img src="https://img.shields.io/badge/-Twitter-18C6EB?style=flat&logo=twitter&logoColor=white"/></a>
+<a href="https://medium.com/@khaledadrani"><img src="https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=Black"/></a>
+<a href="https://stackoverflow.com/users/10761765/khaled-adrani"><img src="https://img.shields.io/badge/-StackOverflow-f18c03?style=flat&logo=stackoverflow&logoColor=white"/></a>
 <a href="https://www.kaggle.com/khaledadrani"><img src="https://img.shields.io/badge/-Kaggle-E4405F?style=flat&logo=Kaggle&logoColor=white"/></a>
 <a href="https://www.codewars.com/users/khaledadrani"><img src="https://img.shields.io/badge/-Codewars-BD081C?style=flat&logo=Codewars&logoColor=white"/></a>
 </p>
 
+## Data Science and Machine Learning
 
-### 🛠 &nbsp;Tech Stack
+![Keras](https://img.shields.io/badge/Keras-05122A?style=for-the-badge&logo=keras&logoColor=keras&color=%232e2e2e)
+![Tensorflow](https://img.shields.io/badge/Tensorflow-05122A?style=for-the-badge&logo=tensorflow&logoColor=tensorflow&color=%232e2e2e)
+![NLTK](https://img.shields.io/badge/NLTK-05122A?style=for-the-badge&logo=nltk&logoColor=ntlk&color=%232e2e2e)
+![Spacy](https://img.shields.io/badge/spacy-05122A?style=for-the-badge&logo=spacy&logoColor=spacy&color=%232e2e2e)
+![Scrapy](https://img.shields.io/badge/-Scrapy-3199DC?style=for-the-badge&logo=scrapy&logoColor=scrapy&color=%232e2e2e)
+![Sklearn](https://img.shields.io/badge/-Sklearn-05122A?style=for-the-badge&logo=sklearn&logoColor=sklearn&color=%232e2e2e)
 
-![Python](https://img.shields.io/badge/-Python-05122A?style=flat&logo=python)&nbsp;
-![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)&nbsp;
-![Java](https://img.shields.io/badge/-Java-05122A?style=flat&logo=Java&logoColor=FFA518)&nbsp;
-![C](https://img.shields.io/badge/-C-05122A?style=flat&logo=C&logoColor=A8B9CC)&nbsp;
-![C++](https://img.shields.io/badge/-C++-05122A?style=flat&logo=C%2B%2B&logoColor=00599C)&nbsp;
-![Flask](https://img.shields.io/badge/-Flask-05122A?style=flat&logo=flask)&nbsp;
-![Sklearn](https://img.shields.io/badge/-Sklearn-05122A?style=flat&logo=Sklearn)&nbsp;
-![Keras](https://img.shields.io/badge/-Keras-05122A?style=flat&logo=Keras)&nbsp;
-![Tensorflow](https://img.shields.io/badge/-Tensorflow-05122A?style=flat&logo=tensorflow)&nbsp;
-![Mongodb](https://img.shields.io/badge/-Mongodb-05122A?style=flat&logo=Mongodb)&nbsp;
-![MySQL](https://img.shields.io/badge/-MySQL-05122A?style=flat&logo=MySQL)&nbsp;
-![React](https://img.shields.io/badge/-React-05122A?style=flat&logo=react)&nbsp;
-![Node.js](https://img.shields.io/badge/-Node.js-05122A?style=flat&logo=node.js)&nbsp;
-![Express.js](https://img.shields.io/badge/-Express.js-05122A?style=flat&logo=Express.Js)&nbsp;
-![Jupyter Notebook](https://img.shields.io/badge/-Jupyter-05122A?style=flat&logo=Jupyter)&nbsp;
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-05122A?style=flat&logo=visual-studio-code)&nbsp;
-![Anaconda](https://img.shields.io/badge/-Anaconda-05122A?style=flat&logo=Anaconda)&nbsp;
-![Eclipse](https://img.shields.io/badge/-Eclipse-05122A?style=flat&logo=eclipse-ide)&nbsp;
-![Photoshop](https://img.shields.io/badge/-Photoshop-05122A?style=flat&logo=adobe-photoshop)&nbsp;
-![HTML](https://img.shields.io/badge/-HTML-05122A?style=flat&logo=HTML5)&nbsp;
-![CSS](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=CSS3&logoColor=1572B6)&nbsp;
-![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)&nbsp;
-![GitHub](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)&nbsp;
-![GitLab](https://img.shields.io/badge/-GitLab-05122A?style=flat&logo=gitab)&nbsp;
-![Markdown](https://img.shields.io/badge/-Markdown-05122A?style=flat&logo=markdown)
+## Web Development
 
-<p align="center">
-  <em>
-    Hello, I am Khaled Adrani, a <b>junior</b> Computer Science Engineer from <a href="http://www.enicarthage.rnu.tn/"> <b>the National Engineering School of Carthage</b>, Tunisia</a>. <br>
-    I am <b>a passionate learner</b>  and a <b>hardworker</b>&nbsp; <br>who is <b>obsessed</b>
-    with new and fascianting ideas as well as solving real life problems through cutting edge technologies such as <b>Data science</b> and <b>Machine Learning</b>.   I am also interested in software development and API Engineering to make useful tools for both users and developers. I aspire to engrave my name as a problem solver who will make a positive impact in Society.
-  </em> 
-  <br>
-  <img src="https://media.giphy.com/media/gH3LO09IOiZIqePwv9/giphy.gif" width="50" /> <b><i align="center">Motto : "Do...”</i></b> <img src="https://media.giphy.com/media/qjqUcgIyRjsl2/giphy.gif" width="50" />
-</p>
-<br><br>
-<img align="right" width=200px height=200px alt="side_sticker" src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" />
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=react&color=%232e2e2e)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=bootstrap&color=%232e2e2e)
+![Angular](https://img.shields.io/badge/angular-%23DD0031.svg?style=for-the-badge&logo=angular&logoColor=red&color=%232e2e2e)
+![Flask](https://img.shields.io/badge/Flask-3199DC?style=for-the-badge&logo=flask&logoColor=flask&color=%232e2e2e)
+![FastAPI](https://img.shields.io/badge/Fastapi-3199DC?style=for-the-badge&logo=fastapi&logoColor=fastapi&color=%232e2e2e)
+![ExpressJS](https://img.shields.io/badge/express-3199DC?style=for-the-badge&logo=express&logoColor=express&color=%232e2e2e)
+![NodeJS](https://img.shields.io/badge/node-3199DC?style=for-the-badge&logo=node&logoColor=node&color=%232e2e2e)
+![Selenium](https://img.shields.io/badge/selenium-3199DC?style=for-the-badge&logo=selenium&logoColor=selenium&color=%232e2e2e)
 
-<img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30px">&nbsp;***About me ....***
+## Languages
 
-- 🔭 I’m currently working on collaborating with a fellow enginner to develop a Stackoverflow Chatbot prototype for learning purposes.
-- 🌱 I’m currently learning **Flask**, **Microservices** and **Advanced topics in Python**.
-- 👯 I’m looking to collaborate on **ambitious projects** which require **creativity**.
-- 🤔 I’m looking for help with finding a **first professional opportunity** in any or some of these topics: **Data Science**, **MLOps**, **Data Engineering**, **API development** or **Machine Learning Engineering**.
-- 💬 Ask me about something you need help through <a href="https://github.com/khaledadrani/khaledadrani/issues/new">an issue</a>. 
-- 😄 Pronouns and Nicknames: Adrani, Ladrani, Claud.
-- ⚡ Fun fact: I may look and behave like if I have a problem with you but I swear I'm friendly :D
-<br><br><br><br>
- 
+![Python](https://img.shields.io/badge/python-%23323330.svg?style=for-the-badge&logo=python&logoColor=python)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=java&logoColor=java&color=%232e2e2e)
+![HTML](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=html5&color=%232e2e2e)
+![CSS](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=css3&color=%232e2e2e)
+![Markdown](https://img.shields.io/badge/markdown-%23000000.svg?style=for-the-badge&logo=markdown&logoColor=markdown&color=%232e2e2e)
+![LaTeX](https://img.shields.io/badge/latex-%23008080.svg?style=for-the-badge&logo=latex&logoColor=white&color=%232e2e2e)
 
- <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="30px" alt="Git"/>&nbsp;<i><b>Git Activeness</b></i></p>
- 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=khaledadrani&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" width="400px" alt="readme-stats" /></p>
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=khaledadrani&show_icons=true&locale=en&theme=chartreuse-dark" alt="ovi" /></p>
-<br><br>
-
-<p align="center"><img src="https://media.giphy.com/media/QaMcXSekUWx7aogAUr/giphy.gif" width="30px" />&nbsp;Git profile Trophies
-<br>
-<img src="https://github-profile-trophy.vercel.app/?username=khaledadrani&theme=juicyfresh&no-bg=true" />
-</p><br>
+<!-- ![C#](https://img.shields.io/badge/c%23-%23239120.svg?style=for-the-badge&logo=c-sharp&logoColor=c%23&color=%232e2e2e)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=typescript&color=%232e2e2e)
+![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=dart&color=%232e2e2e)
+![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=c&color=%232e2e2e)
+![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=c++&color=%232e2e2e)
+![PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge&logo=php&logoColor=white&color=%232e2e2e) -->
 
 
+## Databases
+
+![Neo4j](https://img.shields.io/badge/Neo4j-05122A?style=for-the-badge&logo=neo4j&logoColor=neo4j&color=%232e2e2e)
+![MongoDB](https://img.shields.io/badge/MongoDB-05122A?style=for-the-badge&logo=mongodb&logoColor=mongodb&color=%232e2e2e)
+![SQLite](https://img.shields.io/badge/SQLite-05122A?style=for-the-badge&logo=sqlite&logoColor=sqlite&color=%232e2e2e)
+
+## IDEs & Editors
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=visual-studio-code&color=%232e2e2e)
+![Anaconda](https://img.shields.io/badge/Anaconda-3DDC84.svg?style=for-the-badge&logo=anaconda&logoColor=anaconda&color=%232e2e2e)
+![Jupyter Notebook](https://img.shields.io/badge/Jupyter%20Notebook-3DDC84.svg?style=for-the-badge&logo=jupyter&logoColor=jupyter&color=%232e2e2e)
+![Eclipse](https://img.shields.io/badge/Eclipse-3DDC84.svg?style=for-the-badge&logo=eclipse&logoColor=blue&color=%232e2e2e)
+
+## Version control
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=git&color=%232e2e2e)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white&color=%232e2e2e)
+![GitLab](https://img.shields.io/badge/gitlab-%23121011.svg?style=for-the-badge&logo=gitlab&logoColor=orange&color=%232e2e2e)
+
+## Digital Media
+
+![Adobe Photoshop](https://img.shields.io/badge/adobephotoshop-%2331A8FF.svg?style=for-the-badge&logo=adobephotoshop&logoColor=cyan&color=%232e2e2e)
+![Wondershare Filmora](https://img.shields.io/badge/Wondershare%20Filmora%20-9999FF.svg?style=for-the-badge&logo=Filmora&logoColor=purple&color=%232e2e2e)
 
 -----
-Credits: [Khaled Adrani](https://github.com/khaledadrani)
+[Khaled Adrani](https://github.com/khaledadrani)
 
-Last Edited on: 04/10/2021
+Last Edited on: 01/08/2022
 
