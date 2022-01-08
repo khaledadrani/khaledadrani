@@ -28,12 +28,12 @@
 <br>
 
 <p align="left">
+  <a href="https://medium.com/@khaledadrani"><img src="https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=Black"/></a>
 <a href="https://www.linkedin.com/in/khaled-adrani/"><img src="https://img.shields.io/badge/-Linkedin-0077B5?style=flat&logo=Linkedin&logoColor=white"/></a>
-<a href="mailto:khaledadrani@mail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
+<a href="https://www.kaggle.com/khaledadrani"><img src="https://img.shields.io/badge/-Kaggle-26c0ff?style=flat&logo=Kaggle&logoColor=white"/></a>
 <a href="https://www.codewars.com/users/khaledadrani"><img src="https://img.shields.io/badge/-Twitter-18C6EB?style=flat&logo=twitter&logoColor=white"/></a>
-<a href="https://medium.com/@khaledadrani"><img src="https://img.shields.io/badge/-Medium-000000?style=flat&logo=medium&logoColor=Black"/></a>
 <a href="https://stackoverflow.com/users/10761765/khaled-adrani"><img src="https://img.shields.io/badge/-StackOverflow-f18c03?style=flat&logo=stackoverflow&logoColor=white"/></a>
-<a href="https://www.kaggle.com/khaledadrani"><img src="https://img.shields.io/badge/-Kaggle-E4405F?style=flat&logo=Kaggle&logoColor=white"/></a>
+<a href="mailto:khaledadrani@mail.com"><img src="https://img.shields.io/badge/-Email-D14836?style=flat&logo=Gmail&logoColor=white"/></a>
 <a href="https://www.codewars.com/users/khaledadrani"><img src="https://img.shields.io/badge/-Codewars-BD081C?style=flat&logo=Codewars&logoColor=white"/></a>
 </p>
 
