@@ -77,6 +77,7 @@
 
 ## Databases
 
+![Postgres](https://img.shields.io/badge/postgres-05122A?style=for-the-badge&logo=postgres&logoColor=postgres&color=postgres)
 ![Neo4j](https://img.shields.io/badge/Neo4j-05122A?style=for-the-badge&logo=neo4j&logoColor=neo4j&color=%232e2e2e)
 ![MongoDB](https://img.shields.io/badge/MongoDB-05122A?style=for-the-badge&logo=mongodb&logoColor=mongodb&color=%232e2e2e)
 ![SQLite](https://img.shields.io/badge/SQLite-05122A?style=for-the-badge&logo=sqlite&logoColor=sqlite&color=%232e2e2e)
