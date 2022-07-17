@@ -19,10 +19,10 @@
 
 <p align="left">
   <em>
-    Hello, I am Khaled Adrani, a <b>junior</b> Computer Science Engineer from <a href="http://www.enicarthage.rnu.tn/"> <b>the National Engineering School of Carthage</b>, Tunisia</a>. <br>
-    I would define myself as Problem-Oriented Engineer. I genuinely care about solving problems. <br>
-    My skill set is focued around Data Science, however, I do not hesitate to expand it in other fields like web development.<br>
-    Want to discuss innovative ideas? Or having a request? Contact me!
+    Hello, I am Khaled Adrani, a Computer Science Engineer from <a href="http://www.enicarthage.rnu.tn/"> <b>the National Engineering School of Carthage</b>, Tunisia</a>. <br>
+    I would define myself as a Problem-Oriented Engineer. I genuinely care about solving problems. <br>
+    I have expanded my skill set to include Data Science, Software Development and Devops.
+    Want to discuss creative ideas? Or having a request? Contact me!
     
   </em> 
 <br>
@@ -92,6 +92,12 @@
 ![Neo4j](https://img.shields.io/badge/Neo4j-05122A?style=for-the-badge&logo=neo4j&logoColor=neo4j&color=%232e2e2e)
 ![MongoDB](https://img.shields.io/badge/MongoDB-05122A?style=for-the-badge&logo=mongodb&logoColor=mongodb&color=%232e2e2e)
 ![MongoDB](https://img.shields.io/badge/Redis-05122A?style=for-the-badge&logo=redis&logoColor=redis&color=%232e2e2e)
+
+## DevOps and Cloud
+
+![AWS](https://img.shields.io/badge/aws-05122A?style=for-the-badge&logo=aws&logoColor=aws&color=%232e2e2e)
+![Docker](https://img.shields.io/badge/Docker-05122A?style=for-the-badge&logo=Docker&logoColor=docker&color=%232e2e2e)
+![Heroku](https://img.shields.io/badge/Heroku-05122A?style=for-the-badge&logo=heroku&logoColor=heroku&color=%232e2e2e)
 
 ## IDEs & Editors
 
