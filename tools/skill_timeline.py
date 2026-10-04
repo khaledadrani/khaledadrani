@@ -54,8 +54,8 @@ ORGS = [
         ("deda", "Senior Data Scientist, Gen AI & LLMs", "Sep 2026 \u2013 now",
          "ML and GenAI use cases, including credit scoring, on Python, Spring Boot and Dagster, deployed on Kubernetes."),
     ]),
-    ("Infor IDeAS", "Apr 2024 – now", None, [
-        ("infor", "Data Science Engineer", "Apr 2024 – now",
+    ("Infor IDeAS", "Apr 2024 – Aug 2026", None, [
+        ("infor", "Data Science Engineer", "Apr 2024 – Aug 2026",
          "Inventory optimization, forecasting and pricing on ERP data. "
          "5 PoCs, 2 converted to subscriptions."),
     ]),
