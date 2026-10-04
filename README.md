@@ -50,26 +50,27 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-timeline-dark.svg">
-    <img alt="Timeline of skill usage, 2021 to today" src="./assets/skill-timeline-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-timeline-vertical-dark.svg">
+    <img alt="Timeline of skill usage, 2019 to today" src="./assets/skill-timeline-vertical-light.svg" width="100%">
   </picture>
 </p>
+
+<p align="center"><sub>Want to filter it? Open the <a href="./docs/skills.html"><b>interactive explorer</b></a> (docs/skills.html): search, filter by category, click a skill to see how long and where it was used.</sub></p>
 
 <details>
 <summary><b>Also worked with</b> (not tied to a dated engagement)</summary>
 <br>
 
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=flat-square&logo=javascript&logoColor=%23F7DF1E)
 ![Typescript](https://img.shields.io/badge/typescript-%23323330.svg?style=flat-square&logo=typescript&logoColor=%23F7DF1E)
-![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=flat-square&logo=java&logoColor=java&color=%232e2e2e)
-![Scikit-learn](https://img.shields.io/badge/-Sklearn-05122A?style=flat-square&logo=scikit-learn&logoColor=sklearn&color=%232e2e2e)
 ![Pytorch](https://img.shields.io/badge/-Pytorch-05122A?style=flat-square&logo=pytorch&logoColor=pytorch&color=%232e2e2e)
-![BeautifulSoup](https://img.shields.io/badge/BeautifulSoup-3199DC?style=flat-square&logo=bs4&logoColor=bs4&color=%232e2e2e)
-![Selenium](https://img.shields.io/badge/selenium-3199DC?style=flat-square&logo=selenium&logoColor=selenium&color=%232e2e2e)
 ![Scrapy](https://img.shields.io/badge/-Scrapy-3199DC?style=flat-square&logo=scrapy&logoColor=scrapy&color=%232e2e2e)
 ![Redis](https://img.shields.io/badge/Redis-05122A?style=flat-square&logo=redis&logoColor=redis&color=%232e2e2e)
-![MongoDB](https://img.shields.io/badge/MongoDB-05122A?style=flat-square&logo=mongodb&logoColor=mongodb&color=%232e2e2e)
 ![RabbitMQ](https://img.shields.io/badge/RabbitMQ-05122A?style=flat-square&logo=rabbitmq&logoColor=rabbitmq&color=%232e2e2e)
+![Go](https://img.shields.io/badge/go-%2300ADD8.svg?style=flat-square&logo=go&logoColor=white&color=%232e2e2e)
+![Keycloak](https://img.shields.io/badge/Keycloak-05122A?style=flat-square&logo=keycloak&logoColor=keycloak&color=%232e2e2e)
+![SonarQube](https://img.shields.io/badge/SonarQube-05122A?style=flat-square&logo=sonarqube&logoColor=sonarqube&color=%232e2e2e)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-05122A?style=flat-square&color=%232e2e2e)
+![Liquibase](https://img.shields.io/badge/Liquibase-05122A?style=flat-square&logo=liquibase&logoColor=liquibase&color=%232e2e2e)
 ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=flat-square&logo=git&logoColor=git&color=%232e2e2e)
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=flat-square&logo=github&logoColor=white&color=%232e2e2e)
 ![GitLab](https://img.shields.io/badge/gitlab-%23121011.svg?style=flat-square&logo=gitlab&logoColor=orange&color=%232e2e2e)
