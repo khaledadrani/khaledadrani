@@ -1,0 +1,187 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Khaled Adrani, skills explorer</title>
+<style>
+:root{--bg:#fff;--fg:#1f2328;--mut:#656d76;--card:#f6f8fa;--bd:#d0d7de;--pill:#24292f;--pilltx:#fff;
+--backend:#4f46e5;--ai:#c026d3;--data:#0d9488;--store:#16a34a;--cloud:#d97706;--chiptx:#fff;--now:#cf222e}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--mut:#8b949e;--card:#161b22;--bd:#30363d;
+--pill:#e6edf3;--pilltx:#0d1117;--backend:#818cf8;--ai:#e879f9;--data:#2dd4bf;--store:#4ade80;--cloud:#fbbf24;--chiptx:#0d1117;--now:#ff7b72}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif}
+main{max-width:920px;margin:0 auto;padding:24px 16px 64px}
+h1{font-size:26px;margin:0 0 4px}
+.sub{color:var(--mut);margin:0 0 16px;font-size:14px}
+.bar{position:sticky;top:0;z-index:5;background:var(--bg);padding:10px 0 12px;border-bottom:1px solid var(--bd)}
+.row{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:8px}
+input[type=search]{flex:1 1 220px;min-width:0;padding:8px 12px;border-radius:999px;border:1px solid var(--bd);background:var(--card);color:var(--fg);font:inherit}
+.cat,.tog{border:1.5px solid var(--c,var(--bd));background:transparent;color:var(--c,var(--fg));border-radius:999px;padding:4px 12px;font:600 12.5px inherit;font-family:inherit;cursor:pointer}
+.cat.on{background:var(--c);color:var(--chiptx)}
+.tog{--c:var(--mut)}.tog.on{background:var(--mut);color:var(--bg)}
+.panel{margin-top:6px;min-height:92px;font-size:13.5px;color:var(--mut)}
+.panel b{color:var(--fg)}
+.panel svg{width:100%;height:46px;display:block;margin-top:6px}
+.org{display:flex;justify-content:space-between;align-items:center;background:var(--pill);color:var(--pilltx);border-radius:999px;padding:5px 16px;font-weight:700;font-size:14px;margin:26px 0 12px}
+.org span{font-weight:400;font-size:12.5px;opacity:.75}
+.thr{display:flex;gap:8px;align-items:flex-start;margin:0 0 10px 34px}
+.thr small{flex:none;width:92px;padding-top:4px;color:var(--mut);font-weight:700;letter-spacing:.08em;font-size:10.5px}
+.card{margin:0 0 12px 34px;padding:12px 16px 12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;position:relative;transition:opacity .15s,box-shadow .15s}
+.card:before{content:"";position:absolute;left:-30px;top:18px;width:11px;height:11px;border-radius:50%;background:var(--bg);border:2.5px solid var(--mut)}
+.card:after{content:"";position:absolute;left:-25px;top:-14px;bottom:-14px;width:3px;background:var(--bd);z-index:-1}
+.card h3{margin:0;font-size:15px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;cursor:pointer}
+.card h3 em{font:400 12.5px inherit;font-family:inherit;color:var(--mut)}
+.card p{margin:2px 0 8px;color:var(--mut);font-size:13px}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{--c:var(--backend);border:1.5px solid var(--c);border-radius:999px;padding:2px 11px;font:600 12px/18px inherit;font-family:inherit;cursor:pointer;background:var(--c);color:var(--chiptx);transition:opacity .15s,transform .1s}
+.chip.sup{background:transparent;color:var(--c)}
+.chip:hover{transform:translateY(-1px)}
+.chip[hidden]{display:none}
+body.sel .card:not(.hit){opacity:.28}
+body.sel .chip:not(.sel){opacity:.35}
+.card.hit{box-shadow:0 0 0 2px var(--hl,var(--mut))}
+.card.hidden,.thr.hidden{display:none}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12.5px;color:var(--mut);margin-top:28px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px;background:var(--c)}
+.empty{display:none;text-align:center;color:var(--mut);padding:40px 0}
+</style>
+</head>
+<body>
+<main>
+<h1>Skills, as they were used</h1>
+<p class="sub">Filter by category, search, or click any skill to see where and for how long it was used. Click a card title to light up its skills.</p>
+<div class="bar">
+  <div class="row"><input id="q" type="search" placeholder="Search skills, e.g. rag, kafka, postgres" aria-label="Search skills"></div>
+  <div class="row" id="cats"></div>
+  <div class="row"><button class="tog" id="core">Core only</button><button class="tog" id="clear">Clear selection</button></div>
+  <div class="panel" id="panel"></div>
+</div>
+<div id="tl"></div>
+<div class="empty" id="empty">No skills match.</div>
+<div class="legend" id="legend"></div>
+</main>
+<script>
+const D = {"t0": 2019.4, "t1": 2027.0, "now": 2026.7609589041097, "groups": {"backend": "Backend & Software", "ai": "LLMs & NLP", "data": "Data & ML", "store": "Databases & Storage", "cloud": "Cloud & DevOps"}, "order": ["backend", "ai", "data", "store", "cloud"], "spans": {"tt": [[2019.5833333333333, 2019.6666666666667]], "projs": [[2019.25, 2021.0]], "travaris": [[2020.5, 2020.6666666666667]], "talan": [[2021.0833333333333, 2021.6666666666667]], "ubiai": [[2021.8333333333333, 2022.75]], "ubi_plat": [[2021.9166666666667, 2022.4166666666667]], "ubi_ann": [[2022.3333333333333, 2022.75]], "elyadata": [[2022.6666666666667, 2024.3333333333333]], "algo": [[2022.6666666666667, 2022.9166666666667], [2023.1666666666667, 2023.3333333333333]], "allianz": [[2022.9166666666667, 2023.3333333333333]], "elgenn": [[2023.3333333333333, 2023.9166666666667]], "cahpp": [[2023.8333333333333, 2024.1666666666667]], "infor": [[2024.25, 2026.6666666666667]], "deda": [[2026.6666666666667, 2026.7609589041097]]}, "skills": [{"name": "Python", "group": "backend", "uses": [["projs", 1.0], ["travaris", 1.0], ["talan", 1.0], ["ubiai", 1.0], ["elyadata", 1.0], ["infor", 1.0], ["deda", 1.0]]}, {"name": "Java", "group": "backend", "uses": [["tt", 1.0], ["projs", 1.0]]}, {"name": "C / C++", "group": "backend", "uses": [["projs", 1.0]]}, {"name": "Node.js / React (MERN)", "group": "backend", "uses": [["projs", 1.0]]}, {"name": "Django", "group": "backend", "uses": [["ubi_plat", 1.0]]}, {"name": "FastAPI", "group": "backend", "uses": [["talan", 1.0], ["ubi_plat", 0.42], ["allianz", 1.0], ["elgenn", 1.0], ["cahpp", 1.0]]}, {"name": "Flask", "group": "backend", "uses": [["projs", 0.42]]}, {"name": "Celery", "group": "backend", "uses": [["elgenn", 1.0], ["cahpp", 1.0]]}, {"name": "Kafka", "group": "backend", "uses": [["algo", 1.0]]}, {"name": "Microservices / BFF", "group": "backend", "uses": [["allianz", 1.0], ["cahpp", 1.0]]}, {"name": "Auth (JWT, 2FA)", "group": "backend", "uses": [["allianz", 1.0]]}, {"name": "Domain-Driven Design", "group": "backend", "uses": [["cahpp", 1.0]]}, {"name": "Pytest", "group": "backend", "uses": [["allianz", 1.0]]}, {"name": "Locust", "group": "backend", "uses": [["elgenn", 1.0]]}, {"name": "Spring Boot", "group": "backend", "uses": [["deda", 1.0]]}, {"name": "Vue.js", "group": "backend", "uses": [["deda", 1.0]]}, {"name": "Angular", "group": "backend", "uses": [["ubi_plat", 0.42], ["allianz", 1.0]]}, {"name": "NLP / NER", "group": "ai", "uses": [["talan", 1.0], ["ubiai", 1.0], ["cahpp", 1.0]]}, {"name": "spaCy", "group": "ai", "uses": [["ubiai", 1.0]]}, {"name": "NLTK", "group": "ai", "uses": [["ubiai", 1.0]]}, {"name": "Gensim / topic modeling", "group": "ai", "uses": [["ubi_plat", 1.0]]}, {"name": "Keras / TensorFlow", "group": "ai", "uses": [["projs", 1.0]]}, {"name": "Clustering & recommenders", "group": "ai", "uses": [["travaris", 1.0]]}, {"name": "Document AI / OCR", "group": "ai", "uses": [["ubi_ann", 1.0], ["algo", 0.42]]}, {"name": "Speech APIs (TTS / STT)", "group": "ai", "uses": [["algo", 1.0], ["elyadata", 0.42]]}, {"name": "LLM APIs & prompting", "group": "ai", "uses": [["ubi_ann", 1.0], ["elgenn", 1.0], ["cahpp", 0.42], ["deda", 1.0]]}, {"name": "LangChain", "group": "ai", "uses": [["elgenn", 1.0], ["cahpp", 1.0]]}, {"name": "RAG / vector search", "group": "ai", "uses": [["elgenn", 1.0], ["cahpp", 0.42], ["deda", 1.0]]}, {"name": "Agents & tool-calling", "group": "ai", "uses": [["elgenn", 1.0], ["deda", 1.0]]}, {"name": "Machine learning", "group": "data", "uses": [["infor", 1.0], ["deda", 1.0]]}, {"name": "Credit scoring", "group": "data", "uses": [["deda", 1.0]]}, {"name": "Pandas / NumPy", "group": "data", "uses": [["projs", 0.42], ["ubi_plat", 1.0], ["allianz", 0.42], ["infor", 1.0]]}, {"name": "Scikit-learn", "group": "data", "uses": [["projs", 0.42], ["allianz", 0.42], ["deda", 1.0]]}, {"name": "Web scraping (BS4, Selenium)", "group": "data", "uses": [["projs", 1.0], ["travaris", 1.0], ["talan", 1.0]]}, {"name": "PySpark", "group": "data", "uses": [["infor", 1.0]]}, {"name": "Forecasting (XGBoost, Prophet)", "group": "data", "uses": [["infor", 1.0]]}, {"name": "Simulation & optimization", "group": "data", "uses": [["infor", 1.0]]}, {"name": "MLflow", "group": "data", "uses": [["elgenn", 0.42], ["infor", 1.0], ["deda", 1.0]]}, {"name": "Optuna (tuning & observability)", "group": "data", "uses": [["infor", 1.0], ["deda", 1.0]]}, {"name": "XAI (explainability)", "group": "data", "uses": [["infor", 1.0], ["deda", 1.0]]}, {"name": "Kedro", "group": "data", "uses": [["elgenn", 0.42]]}, {"name": "Orchestration (Dagster, Airflow, ION)", "group": "data", "uses": [["infor", 1.0], ["deda", 1.0]]}, {"name": "Tableau / Birst", "group": "data", "uses": [["infor", 0.42]]}, {"name": "SQL", "group": "store", "uses": [["infor", 1.0]]}, {"name": "SQL / PostgreSQL", "group": "store", "uses": [["allianz", 1.0], ["elgenn", 1.0], ["cahpp", 1.0], ["deda", 1.0]]}, {"name": "MySQL", "group": "store", "uses": [["tt", 1.0], ["projs", 1.0]]}, {"name": "MongoDB", "group": "store", "uses": [["projs", 1.0], ["travaris", 1.0], ["allianz", 0.42], ["elyadata", 0.42]]}, {"name": "Elasticsearch", "group": "store", "uses": [["elyadata", 0.42]]}, {"name": "pgvector / Milvus", "group": "store", "uses": [["elgenn", 1.0], ["cahpp", 0.42]]}, {"name": "Neo4j", "group": "store", "uses": [["ubi_plat", 0.42]]}, {"name": "S3 / Data Lake", "group": "store", "uses": [["ubi_plat", 0.42], ["infor", 1.0]]}, {"name": "AWS (Lambda, ECS, EC2)", "group": "cloud", "uses": [["ubiai", 1.0]]}, {"name": "Docker", "group": "cloud", "uses": [["ubi_plat", 1.0], ["allianz", 1.0]]}, {"name": "Kubernetes / Helm", "group": "cloud", "uses": [["allianz", 1.0], ["deda", 1.0]]}, {"name": "Jenkins CI/CD", "group": "cloud", "uses": [["allianz", 1.0]]}, {"name": "Azure Blob", "group": "cloud", "uses": [["allianz", 0.42]]}], "orgs": [{"label": "Dedagroup AI US", "dates": "Sep 2026 \u2013 now", "org_id": null, "cards": [{"id": "deda", "title": "Senior Data Scientist, Gen AI & LLMs", "dates": "Sep 2026 \u2013 now", "blurb": "ML and GenAI use cases, including credit scoring, on Python, Spring Boot and Dagster, deployed on Kubernetes."}]}, {"label": "Infor IDeAS", "dates": "Apr 2024 \u2013 now", "org_id": null, "cards": [{"id": "infor", "title": "Data Science Engineer", "dates": "Apr 2024 \u2013 now", "blurb": "Inventory optimization, forecasting and pricing on ERP data. 5 PoCs, 2 converted to subscriptions."}]}, {"label": "Elyadata", "dates": "Sep 2022 \u2013 Apr 2024", "org_id": "elyadata", "cards": [{"id": "cahpp", "title": "Software Consultant \u00b7 CAHPP", "dates": "Nov 2023 \u2013 Feb 2024", "blurb": "Medical product mapping with NER + fuzzy matching, >90% accuracy."}, {"id": "elgenn", "title": "ELGENN internal product", "dates": "May 2023 \u2013 Nov 2023", "blurb": "LLM inference APIs, document RAG, agentic SQL pipeline."}, {"id": "allianz", "title": "Software Consultant \u00b7 Allianz", "dates": "Dec 2022 \u2013 Apr 2023", "blurb": "Real-time ML inference microservices for insurance models."}, {"id": "algo", "title": "Software Data Engineer \u00b7 Algobrain", "dates": "Sep 2022 \u2013 Apr 2023", "blurb": "Kafka event-driven workflows, OCR and speech-to-text integrations."}]}, {"label": "UBIAI", "dates": "Nov 2021 \u2013 Sep 2022", "org_id": "ubiai", "cards": [{"id": "ubi_ann", "title": "Annotation tool platform", "dates": "May 2022 \u2013 Sep 2022", "blurb": "GPT-3 document understanding, LayoutLM serving moved to Lambda."}, {"id": "ubi_plat", "title": "NLP scientific documents platform", "dates": "Dec 2021 \u2013 May 2022", "blurb": "Django backend on AWS, ~27x faster batch ingestion."}]}, {"label": "ENICar, student years", "dates": "2018 \u2013 2021", "org_id": null, "cards": [{"id": "talan", "title": "ML Intern, graduation project \u00b7 Talan", "dates": "Feb 2021 \u2013 Aug 2021", "blurb": "Fake-news detection: satire and credibility models, bias metric, served as an API."}, {"id": "travaris", "title": "Data Science Intern \u00b7 Travaris", "dates": "Jul 2020 \u2013 Aug 2020", "blurb": "Geolocation clustering and a POI recommender prototype."}, {"id": "projs", "title": "Student projects", "dates": "2019 \u2013 2020", "blurb": "MERN web app, Discord bots, news scraper, Java desktop app. #1 in a Kaggle ML competition."}, {"id": "tt", "title": "Java Developer Intern \u00b7 Tunisie Telecom", "dates": "Aug 2019", "blurb": "Java Swing + Apache POI utility for a regional recovery system."}]}], "parents": {"ubi_plat": "ubiai", "ubi_ann": "ubiai", "cahpp": "elyadata", "elgenn": "elyadata", "allianz": "elyadata", "algo": "elyadata"}};
+const T0 = D.t0, T1 = D.t1, NOW = D.now;
+const GROUPS = D.groups, SPANS = D.spans;
+const state = {cats: new Set(Object.keys(GROUPS)), q: "", core: false, sel: null};
+const $ = (s) => document.querySelector(s);
+const el = (t, c, h) => { const e = document.createElement(t); if (c) e.className = c; if (h != null) e.textContent = h; return e; };
+const col = (g) => `var(--${g})`;
+
+// ---- skill index ----
+const skillByName = Object.fromEntries(D.skills.map(s => [s.name, s]));
+function spansOf(skill) {
+  const out = [];
+  skill.uses.forEach(u => (SPANS[u[0]] || []).forEach(sp => out.push(sp)));
+  out.sort((a, b) => a[0] - b[0]);
+  const m = [];
+  out.forEach(([a, b]) => { if (m.length && a <= m[m.length-1][1] + 0.02) m[m.length-1][1] = Math.max(m[m.length-1][1], b); else m.push([a, b]); });
+  return m;
+}
+const fmt = (t) => { const y = Math.floor(t + 1e-9), mo = Math.min(11, Math.floor((t - y) * 12 + 1e-6)); return ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"][mo] + " " + y; };
+
+// ---- build ----
+const tl = $("#tl");
+D.orgs.forEach(org => {
+  const h = el("div", "org", org.label); h.appendChild(el("span", "", org.dates)); tl.appendChild(h);
+  const mk = (id) => {
+    const box = el("div", "chips");
+    D.skills.filter(s => s.uses.some(u => u[0] === id)).sort((a, b) => D.order.indexOf(a.group) - D.order.indexOf(b.group)).forEach(s => {
+      const lvl = s.uses.find(u => u[0] === id)[1];
+      const c = el("button", "chip" + (lvl < 1 ? " sup" : ""), s.name);
+      c.style.setProperty("--c", col(s.group)); c.dataset.skill = s.name; c.dataset.group = s.group; c.dataset.lvl = lvl;
+      c.title = (lvl < 1 ? "Supporting" : "Core") + " · " + GROUPS[s.group];
+      c.onclick = (e) => { e.stopPropagation(); select(state.sel === s.name ? null : s.name); };
+      box.appendChild(c);
+    });
+    return box;
+  };
+  org.cards.forEach(cd => {
+    const c = el("div", "card"); c.dataset.id = cd.id;
+    const t = el("h3", "", cd.title); t.appendChild(el("em", "", cd.dates));
+    t.onclick = () => selectCard(cd.id);
+    c.appendChild(t); c.appendChild(el("p", "", cd.blurb)); c.appendChild(mk(cd.id)); tl.appendChild(c);
+  });
+  if (org.org_id) {
+    const row = el("div", "thr"); row.appendChild(el("small", "", "THROUGHOUT")); row.appendChild(mk(org.org_id)); tl.appendChild(row);
+  }
+});
+const cats = $("#cats");
+Object.entries(GROUPS).forEach(([k, name]) => {
+  const b = el("button", "cat on", name); b.style.setProperty("--c", col(k)); b.dataset.k = k;
+  b.onclick = () => { state.cats.has(k) ? state.cats.delete(k) : state.cats.add(k); b.classList.toggle("on"); apply(); };
+  cats.appendChild(b);
+  const l = el("span"); const i = el("i"); i.style.setProperty("--c", col(k)); l.appendChild(i); l.appendChild(document.createTextNode(name)); $("#legend").appendChild(l);
+});
+$("#q").oninput = (e) => { state.q = e.target.value.trim().toLowerCase(); apply(); };
+$("#core").onclick = (e) => { state.core = !state.core; e.target.classList.toggle("on"); apply(); };
+$("#clear").onclick = () => select(null);
+document.addEventListener("keydown", (e) => { if (e.key === "Escape") select(null); });
+
+// ---- behaviour ----
+function select(name) {
+  state.sel = name; state.card = null;
+  history.replaceState(null, "", name ? "#skill=" + encodeURIComponent(name) : location.pathname);
+  apply();
+}
+function selectCard(id) { state.sel = null; state.card = state.card === id ? null : id; apply(); }
+
+function apply() {
+  const filtering = state.q || state.core || state.cats.size < Object.keys(GROUPS).length;
+  document.querySelectorAll(".chip").forEach(c => {
+    const ok = state.cats.has(c.dataset.group) && (!state.q || c.dataset.skill.toLowerCase().includes(state.q)) && (!state.core || +c.dataset.lvl >= 1);
+    c.hidden = !ok;
+    c.classList.toggle("sel", c.dataset.skill === state.sel);
+  });
+  let shown = 0;
+  document.querySelectorAll(".card, .thr").forEach(n => {
+    const vis = n.querySelectorAll(".chip:not([hidden])").length;
+    n.classList.toggle("hidden", filtering && !vis);
+    if (n.classList.contains("card")) {
+      const uses = state.sel && skillByName[state.sel].uses.some(u => u[0] === n.dataset.id);
+      const parent = state.sel && D.parents[n.dataset.id] && skillByName[state.sel].uses.some(u => u[0] === D.parents[n.dataset.id]);
+      n.classList.toggle("hit", !!(uses || parent || state.card === n.dataset.id));
+      if (vis) shown++;
+    }
+  });
+  document.body.classList.toggle("sel", !!(state.sel || state.card));
+  $("#empty").style.display = filtering && !shown ? "block" : "none";
+  if (state.card) {
+    const cid = state.card;
+    document.querySelectorAll(".card").forEach(n => n.classList.toggle("hit", n.dataset.id === cid));
+    document.querySelectorAll(".chip").forEach(c => c.classList.toggle("sel", !!c.closest(".card[data-id='" + cid + "']")));
+  }
+  panel();
+}
+
+function panel() {
+  const p = $("#panel");
+  if (!state.sel) {
+    const n = D.skills.length, m = D.orgs.reduce((a, o) => a + o.cards.length, 0);
+    p.innerHTML = state.card ? "<b>" + (document.querySelector(".card[data-id='" + state.card + "'] h3").firstChild.textContent) + "</b>: its skills are highlighted. Click the title again to clear."
+      : "<b>" + n + " skills</b> across <b>" + m + " engagements</b>, " + Math.floor(T0) + " to today. Solid chips were core to the work, outlined chips were used alongside.";
+    return;
+  }
+  const s = skillByName[state.sel], sp = spansOf(s);
+  const months = Math.round(sp.reduce((a, [x, y]) => a + (y - x) * 12, 0));
+  const yrs = months >= 24 ? (months / 12).toFixed(1).replace(".0", "") + " years" : months + " month" + (months === 1 ? "" : "s");
+  const ids = s.uses.map(u => u[0]);
+  const where = D.orgs.flatMap(o => o.cards).filter(c => ids.includes(c.id) || ids.includes(D.parents[c.id])).map(c => c.title.split(" · ")[0]);
+  const W = 1000, x = (t) => (Math.min(Math.max(t, T0), T1) - T0) / (T1 - T0) * W;
+  let svg = `<svg viewBox="0 0 ${W} 46" preserveAspectRatio="none" aria-hidden="true">`;
+  for (let y = Math.ceil(T0); y <= Math.floor(NOW); y++) svg += `<line x1="${x(y)}" x2="${x(y)}" y1="0" y2="30" stroke="currentColor" opacity=".25" stroke-dasharray="3 5"/>`;
+  sp.forEach(([a, b]) => svg += `<rect x="${x(a)}" y="6" width="${Math.max(x(b) - x(a), 6)}" height="18" rx="9" fill="${col(s.group)}"/>`);
+  svg += `<line x1="${x(NOW)}" x2="${x(NOW)}" y1="0" y2="30" stroke="var(--now)" stroke-width="2"/></svg>`;
+  let ticks = ""; for (let y = Math.ceil(T0); y <= Math.floor(NOW); y++) ticks += `<span style="position:absolute;left:${(y - T0) / (T1 - T0) * 100}%;transform:translateX(-50%)">${y}</span>`;
+  p.innerHTML = `<b style="color:${col(s.group)}">${s.name}</b> · ${GROUPS[s.group]} · <b>${yrs}</b> in use, ${fmt(sp[0][0])} to ${sp[sp.length-1][1] >= NOW - 0.05 ? "today" : fmt(sp[sp.length-1][1] - 0.01)}<br>${where.join(", ")}` +
+    svg + `<div style="position:relative;height:16px;font-size:11px">${ticks}</div>`;
+}
+
+const m = location.hash.match(/skill=([^&]+)/);
+if (m && skillByName[decodeURIComponent(m[1])]) state.sel = decodeURIComponent(m[1]);
+apply();
+</script>
+</body>
+</html>

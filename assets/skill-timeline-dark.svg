@@ -1,0 +1,231 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="980" height="1630" viewBox="0 0 980 1630" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Timeline of skill usage from 2019 to 2026">
+<rect width="980" height="1630" rx="14" fill="#0d1117"/>
+<rect x=".5" y=".5" width="979" height="1629" rx="14" fill="none" stroke="#30363d"/>
+<text x="28" y="40" font-size="20" font-weight="700" fill="#e6edf3">Skills, as they were used</text>
+<text x="28" y="60" font-size="12" fill="#8b949e">Each bar is a real engagement, 2019–2026. Not self-rated levels.</text>
+<line x1="276.3" y1="80" x2="276.3" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="276.3" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2020</text>
+<line x1="373.4" y1="80" x2="373.4" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="373.4" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2021</text>
+<line x1="470.5" y1="80" x2="470.5" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="470.5" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2022</text>
+<line x1="567.6" y1="80" x2="567.6" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="567.6" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2023</text>
+<line x1="664.7" y1="80" x2="664.7" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="664.7" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2024</text>
+<line x1="761.8" y1="80" x2="761.8" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="761.8" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2025</text>
+<line x1="858.9" y1="80" x2="858.9" y2="1576" stroke="#30363d" stroke-dasharray="2 4"/>
+<text x="858.9" y="74" font-size="12" font-weight="600" text-anchor="middle" fill="#8b949e">2026</text>
+<text x="28" y="119" font-size="11" font-weight="700" letter-spacing="1" fill="#8b949e">WHERE</text>
+<rect x="218.0" y="100" width="236.3" height="28" rx="14" fill="#8b949e"/>
+<text x="336.1" y="118.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0d1117">ENICar</text>
+<rect x="454.3" y="100" width="89.0" height="28" rx="14" fill="#e6edf3"/>
+<text x="498.8" y="118.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0d1117">UBIAI</text>
+<rect x="535.2" y="100" width="161.8" height="28" rx="14" fill="#8b949e"/>
+<text x="616.1" y="118.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0d1117">Elyadata</text>
+<rect x="689.0" y="100" width="234.7" height="28" rx="14" fill="#e6edf3"/>
+<text x="806.3" y="118.5" font-size="12" font-weight="600" text-anchor="middle" fill="#0d1117">Infor IDeAS</text>
+<rect x="923.6" y="100" width="9.2" height="28" rx="14" fill="#8b949e"/>
+<text x="932.8" y="94" font-size="11" font-weight="600" text-anchor="end" fill="#e6edf3">Dedagroup AI US</text>
+<rect x="235.8" y="134" width="8.1" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="239.8" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">T. Telecom</text>
+<rect x="324.8" y="134" width="16.2" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="332.9" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">Travaris</text>
+<rect x="381.5" y="134" width="56.6" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="409.8" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">Talan</text>
+<rect x="535.2" y="134" width="24.3" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<rect x="583.8" y="134" width="16.2" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="547.3" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">Algobrain</text>
+<rect x="559.5" y="134" width="40.5" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="579.7" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">Allianz</text>
+<rect x="599.9" y="134" width="56.6" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="628.3" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">ELGENN</text>
+<rect x="648.5" y="134" width="32.4" height="16" rx="8" fill="#8b949e" fill-opacity=".22"/>
+<text x="664.7" y="162" font-size="9.5" text-anchor="middle" fill="#8b949e">CAHPP</text>
+<rect x="20" y="178" width="4" height="14" rx="2" fill="#818cf8"/>
+<text x="32" y="190" font-size="11" font-weight="700" letter-spacing="1" fill="#818cf8">BACKEND &amp; SOFTWARE</text>
+<rect x="12" y="205" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="220" font-size="12" text-anchor="end" fill="#e6edf3">Python</text>
+<rect x="218.0" y="209" width="714.8" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="242" font-size="12" text-anchor="end" fill="#e6edf3">Java</text>
+<rect x="218.0" y="231" width="155.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="249" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="264" font-size="12" text-anchor="end" fill="#e6edf3">C / C++</text>
+<rect x="218.0" y="253" width="155.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="286" font-size="12" text-anchor="end" fill="#e6edf3">Node.js / React (MERN)</text>
+<rect x="218.0" y="275" width="155.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="293" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="308" font-size="12" text-anchor="end" fill="#e6edf3">Django</text>
+<rect x="462.4" y="297" width="48.6" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="330" font-size="12" text-anchor="end" fill="#e6edf3">FastAPI</text>
+<rect x="462.4" y="319" width="48.6" height="12" rx="6" fill="#818cf8" fill-opacity="0.42"/>
+<rect x="381.5" y="319" width="56.6" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="559.5" y="319" width="121.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="337" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="352" font-size="12" text-anchor="end" fill="#e6edf3">Flask</text>
+<rect x="218.0" y="341" width="155.4" height="12" rx="6" fill="#818cf8" fill-opacity="0.42"/>
+<text x="206" y="374" font-size="12" text-anchor="end" fill="#e6edf3">Celery</text>
+<rect x="599.9" y="363" width="80.9" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="381" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="396" font-size="12" text-anchor="end" fill="#e6edf3">Kafka</text>
+<rect x="535.2" y="385" width="64.7" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="418" font-size="12" text-anchor="end" fill="#e6edf3">Microservices / BFF</text>
+<rect x="559.5" y="407" width="40.5" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="648.5" y="407" width="32.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="425" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="440" font-size="12" text-anchor="end" fill="#e6edf3">Auth (JWT, 2FA)</text>
+<rect x="559.5" y="429" width="40.5" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="462" font-size="12" text-anchor="end" fill="#e6edf3">Domain-Driven Design</text>
+<rect x="648.5" y="451" width="32.4" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="469" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="484" font-size="12" text-anchor="end" fill="#e6edf3">Pytest</text>
+<rect x="559.5" y="473" width="40.5" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="506" font-size="12" text-anchor="end" fill="#e6edf3">Locust</text>
+<rect x="599.9" y="495" width="56.6" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="513" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="528" font-size="12" text-anchor="end" fill="#e6edf3">Spring Boot</text>
+<rect x="923.6" y="517" width="9.2" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<text x="206" y="550" font-size="12" text-anchor="end" fill="#e6edf3">Vue.js</text>
+<rect x="923.6" y="539" width="9.2" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="12" y="557" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="572" font-size="12" text-anchor="end" fill="#e6edf3">Angular</text>
+<rect x="462.4" y="561" width="48.6" height="12" rx="6" fill="#818cf8" fill-opacity="0.42"/>
+<rect x="559.5" y="561" width="40.5" height="12" rx="6" fill="#818cf8" fill-opacity="1.0"/>
+<rect x="20" y="586" width="4" height="14" rx="2" fill="#e879f9"/>
+<text x="32" y="598" font-size="11" font-weight="700" letter-spacing="1" fill="#e879f9">LLMS &amp; NLP</text>
+<rect x="12" y="613" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="628" font-size="12" text-anchor="end" fill="#e6edf3">NLP / NER</text>
+<rect x="381.5" y="617" width="161.8" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="648.5" y="617" width="32.4" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="650" font-size="12" text-anchor="end" fill="#e6edf3">spaCy</text>
+<rect x="454.3" y="639" width="89.0" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="12" y="657" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="672" font-size="12" text-anchor="end" fill="#e6edf3">NLTK</text>
+<rect x="454.3" y="661" width="89.0" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="694" font-size="12" text-anchor="end" fill="#e6edf3">Gensim / topic modeling</text>
+<rect x="462.4" y="683" width="48.6" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="12" y="701" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="716" font-size="12" text-anchor="end" fill="#e6edf3">Keras / TensorFlow</text>
+<rect x="218.0" y="705" width="155.4" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="738" font-size="12" text-anchor="end" fill="#e6edf3">Clustering &amp; recommenders</text>
+<rect x="324.8" y="727" width="16.2" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="12" y="745" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="760" font-size="12" text-anchor="end" fill="#e6edf3">Document AI / OCR</text>
+<rect x="535.2" y="749" width="64.7" height="12" rx="6" fill="#e879f9" fill-opacity="0.42"/>
+<rect x="502.8" y="749" width="40.5" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="782" font-size="12" text-anchor="end" fill="#e6edf3">Speech APIs (TTS / STT)</text>
+<rect x="535.2" y="771" width="161.8" height="12" rx="6" fill="#e879f9" fill-opacity="0.42"/>
+<rect x="535.2" y="771" width="64.7" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="12" y="789" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="804" font-size="12" text-anchor="end" fill="#e6edf3">LLM APIs &amp; prompting</text>
+<rect x="648.5" y="793" width="32.4" height="12" rx="6" fill="#e879f9" fill-opacity="0.42"/>
+<rect x="502.8" y="793" width="40.5" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="599.9" y="793" width="56.6" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="923.6" y="793" width="9.2" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="826" font-size="12" text-anchor="end" fill="#e6edf3">LangChain</text>
+<rect x="599.9" y="815" width="80.9" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="12" y="833" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="848" font-size="12" text-anchor="end" fill="#e6edf3">RAG / vector search</text>
+<rect x="648.5" y="837" width="32.4" height="12" rx="6" fill="#e879f9" fill-opacity="0.42"/>
+<rect x="599.9" y="837" width="56.6" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="923.6" y="837" width="9.2" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<text x="206" y="870" font-size="12" text-anchor="end" fill="#e6edf3">Agents &amp; tool-calling</text>
+<rect x="599.9" y="859" width="56.6" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="923.6" y="859" width="9.2" height="12" rx="6" fill="#e879f9" fill-opacity="1.0"/>
+<rect x="20" y="884" width="4" height="14" rx="2" fill="#2dd4bf"/>
+<text x="32" y="896" font-size="11" font-weight="700" letter-spacing="1" fill="#2dd4bf">DATA &amp; ML</text>
+<rect x="12" y="911" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="926" font-size="12" text-anchor="end" fill="#e6edf3">Machine learning</text>
+<rect x="689.0" y="915" width="243.8" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="948" font-size="12" text-anchor="end" fill="#e6edf3">Credit scoring</text>
+<rect x="923.6" y="937" width="9.2" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="12" y="955" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="970" font-size="12" text-anchor="end" fill="#e6edf3">Pandas / NumPy</text>
+<rect x="218.0" y="959" width="155.4" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="559.5" y="959" width="40.5" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="462.4" y="959" width="48.6" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="689.0" y="959" width="234.7" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="992" font-size="12" text-anchor="end" fill="#e6edf3">Scikit-learn</text>
+<rect x="218.0" y="981" width="155.4" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="559.5" y="981" width="40.5" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="923.6" y="981" width="9.2" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="12" y="999" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1014" font-size="12" text-anchor="end" fill="#e6edf3">Web scraping (BS4, Selenium)</text>
+<rect x="218.0" y="1003" width="220.1" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="1036" font-size="12" text-anchor="end" fill="#e6edf3">PySpark</text>
+<rect x="689.0" y="1025" width="234.7" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="12" y="1043" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1058" font-size="12" text-anchor="end" fill="#e6edf3">Forecasting (XGBoost, Prophet)</text>
+<rect x="689.0" y="1047" width="234.7" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="1080" font-size="12" text-anchor="end" fill="#e6edf3">Simulation &amp; optimization</text>
+<rect x="689.0" y="1069" width="234.7" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="12" y="1087" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1102" font-size="12" text-anchor="end" fill="#e6edf3">MLflow</text>
+<rect x="599.9" y="1091" width="56.6" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="689.0" y="1091" width="243.8" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="1124" font-size="12" text-anchor="end" fill="#e6edf3">Optuna (tuning &amp; observability)</text>
+<rect x="689.0" y="1113" width="243.8" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<rect x="12" y="1131" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1146" font-size="12" text-anchor="end" fill="#e6edf3">XAI (explainability)</text>
+<rect x="689.0" y="1135" width="243.8" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="1168" font-size="12" text-anchor="end" fill="#e6edf3">Kedro</text>
+<rect x="599.9" y="1157" width="56.6" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="12" y="1175" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1190" font-size="12" text-anchor="end" fill="#e6edf3">Orchestration (Dagster, Airflow, ION)</text>
+<rect x="689.0" y="1179" width="243.8" height="12" rx="6" fill="#2dd4bf" fill-opacity="1.0"/>
+<text x="206" y="1212" font-size="12" text-anchor="end" fill="#e6edf3">Tableau / Birst</text>
+<rect x="689.0" y="1201" width="234.7" height="12" rx="6" fill="#2dd4bf" fill-opacity="0.42"/>
+<rect x="20" y="1226" width="4" height="14" rx="2" fill="#4ade80"/>
+<text x="32" y="1238" font-size="11" font-weight="700" letter-spacing="1" fill="#4ade80">DATABASES &amp; STORAGE</text>
+<rect x="12" y="1253" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1268" font-size="12" text-anchor="end" fill="#e6edf3">SQL</text>
+<rect x="689.0" y="1257" width="234.7" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<text x="206" y="1290" font-size="12" text-anchor="end" fill="#e6edf3">SQL / PostgreSQL</text>
+<rect x="559.5" y="1279" width="121.4" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<rect x="923.6" y="1279" width="9.2" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<rect x="12" y="1297" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1312" font-size="12" text-anchor="end" fill="#e6edf3">MySQL</text>
+<rect x="218.0" y="1301" width="155.4" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<text x="206" y="1334" font-size="12" text-anchor="end" fill="#e6edf3">MongoDB</text>
+<rect x="535.2" y="1323" width="161.8" height="12" rx="6" fill="#4ade80" fill-opacity="0.42"/>
+<rect x="218.0" y="1323" width="155.4" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<rect x="12" y="1341" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1356" font-size="12" text-anchor="end" fill="#e6edf3">Elasticsearch</text>
+<rect x="535.2" y="1345" width="161.8" height="12" rx="6" fill="#4ade80" fill-opacity="0.42"/>
+<text x="206" y="1378" font-size="12" text-anchor="end" fill="#e6edf3">pgvector / Milvus</text>
+<rect x="648.5" y="1367" width="32.4" height="12" rx="6" fill="#4ade80" fill-opacity="0.42"/>
+<rect x="599.9" y="1367" width="56.6" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<rect x="12" y="1385" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1400" font-size="12" text-anchor="end" fill="#e6edf3">Neo4j</text>
+<rect x="462.4" y="1389" width="48.6" height="12" rx="6" fill="#4ade80" fill-opacity="0.42"/>
+<text x="206" y="1422" font-size="12" text-anchor="end" fill="#e6edf3">S3 / Data Lake</text>
+<rect x="462.4" y="1411" width="48.6" height="12" rx="6" fill="#4ade80" fill-opacity="0.42"/>
+<rect x="689.0" y="1411" width="234.7" height="12" rx="6" fill="#4ade80" fill-opacity="1.0"/>
+<rect x="20" y="1436" width="4" height="14" rx="2" fill="#fbbf24"/>
+<text x="32" y="1448" font-size="11" font-weight="700" letter-spacing="1" fill="#fbbf24">CLOUD &amp; DEVOPS</text>
+<rect x="12" y="1463" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1478" font-size="12" text-anchor="end" fill="#e6edf3">AWS (Lambda, ECS, EC2)</text>
+<rect x="454.3" y="1467" width="89.0" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<text x="206" y="1500" font-size="12" text-anchor="end" fill="#e6edf3">Docker</text>
+<rect x="462.4" y="1489" width="48.6" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<rect x="559.5" y="1489" width="40.5" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<rect x="12" y="1507" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1522" font-size="12" text-anchor="end" fill="#e6edf3">Kubernetes / Helm</text>
+<rect x="559.5" y="1511" width="40.5" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<rect x="923.6" y="1511" width="9.2" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<text x="206" y="1544" font-size="12" text-anchor="end" fill="#e6edf3">Jenkins CI/CD</text>
+<rect x="559.5" y="1533" width="40.5" height="12" rx="6" fill="#fbbf24" fill-opacity="1.0"/>
+<rect x="12" y="1551" width="956" height="22" rx="6" fill="#161b22"/>
+<text x="206" y="1566" font-size="12" text-anchor="end" fill="#e6edf3">Azure Blob</text>
+<rect x="559.5" y="1555" width="40.5" height="12" rx="6" fill="#fbbf24" fill-opacity="0.42"/>
+<line x1="932.8" y1="92" x2="932.8" y2="1576" stroke="#ff7b72" stroke-width="1.5"/>
+<circle cx="932.8" cy="92" r="3.5" fill="#ff7b72"/>
+<rect x="32" y="1594" width="26" height="10" rx="5" fill="#818cf8"/>
+<text x="66" y="1603" font-size="11" fill="#8b949e">core to the work</text>
+<rect x="170" y="1594" width="26" height="10" rx="5" fill="#818cf8" fill-opacity="0.42"/>
+<text x="204" y="1603" font-size="11" fill="#8b949e">supporting / used alongside</text>
+<line x1="400" y1="1593" x2="400" y2="1605" stroke="#ff7b72" stroke-width="1.5"/>
+<text x="410" y="1603" font-size="11" fill="#8b949e">today</text>
+<text x="952" y="1603" font-size="11" text-anchor="end" fill="#8b949e">generated by tools/skill_timeline.py</text>
+</svg>
