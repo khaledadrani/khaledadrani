@@ -275,7 +275,8 @@ def layout_vertical(add, c):
             add(f'<circle cx="{SPINE_X}" cy="{y + 22}" r="6" fill="{c["bg"]}" stroke="{c["lane_b"]}" stroke-width="2.5"/>')
             add(f'<rect x="{CARD_X}" y="{y}" width="{CARD_W}" height="{card_h}" rx="12" fill="{c["card"]}" stroke="{c["border"]}"/>')
             add(f'<text x="{CARD_X + 16}" y="{y + 26}" font-size="14" font-weight="700" fill="{c["text"]}">{escape(title)}</text>')
-            add(f'<text x="{CARD_X + CARD_W - 16}" y="{y + 26}" font-size="11.5" text-anchor="end" fill="{c["muted"]}">{escape(dates)}</text>')
+            if not (len(cards) == 1 and dates == org_dates):  # the org pill already shows it
+                add(f'<text x="{CARD_X + CARD_W - 16}" y="{y + 26}" font-size="11.5" text-anchor="end" fill="{c["muted"]}">{escape(dates)}</text>')
             add(f'<text x="{CARD_X + 16}" y="{y + 46}" font-size="12" fill="{c["muted"]}">{escape(blurb)}</text>')
             draw_chips(add, rows, CARD_X + 16, y + 60, c)
             y += card_h + 14
@@ -510,7 +511,7 @@ D.orgs.forEach(org => {
   };
   org.cards.forEach(cd => {
     const c = el("div", "card"); c.dataset.id = cd.id;
-    const t = el("h3", "", cd.title); t.appendChild(el("em", "", cd.dates));
+    const t = el("h3", "", cd.title); if (!(org.cards.length === 1 && cd.dates === org.dates)) t.appendChild(el("em", "", cd.dates));
     t.onclick = () => selectCard(cd.id);
     c.appendChild(t); c.appendChild(el("p", "", cd.blurb)); c.appendChild(mk(cd.id)); tl.appendChild(c);
   });
