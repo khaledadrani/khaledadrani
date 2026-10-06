@@ -1,0 +1,239 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="1742" viewBox="0 0 860 1742" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Vertical timeline of skills by engagement, 2019 to today">
+<rect width="860" height="1742" rx="14" fill="#ffffff"/>
+<rect x=".5" y=".5" width="859" height="1741" rx="14" fill="none" stroke="#d0d7de"/>
+<text x="28" y="42" font-size="22" font-weight="700" fill="#1f2328">Earlier engagements</text>
+<text x="28" y="64" font-size="12.5" fill="#656d76">2018 – 2024: consulting, platform work and student years.</text>
+<rect x="28" y="78" width="46" height="22" rx="11" fill="#4f46e5"/>
+<text x="51" y="93" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">core</text>
+<text x="84" y="93" font-size="11.5" fill="#656d76">central to the work</text>
+<rect x="228.75" y="78.75" width="76.5" height="20.5" rx="10.25" fill="none" stroke="#4f46e5" stroke-width="1.5"/>
+<text x="267" y="93" font-size="11.5" font-weight="600" text-anchor="middle" fill="#4f46e5">supporting</text>
+<text x="316" y="93" font-size="11.5" fill="#656d76">used alongside</text>
+<line x1="128" y1="122" x2="128" y2="1682" stroke="#d0d7de" stroke-width="3" stroke-linecap="round"/>
+<rect x="114" y="122" width="722" height="30" rx="15" fill="#24292f"/>
+<text x="134" y="141.5" font-size="13" font-weight="700" fill="#ffffff">Elyadata</text>
+<text x="830" y="141.5" font-size="11.5" text-anchor="end" fill="#ffffff" fill-opacity=".75">Sep 2022 – Apr 2024</text>
+<circle cx="128" cy="188" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="166" width="674" height="156" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="192" font-size="14" font-weight="700" fill="#1f2328">Software Consultant · CAHPP</text>
+<text x="820" y="192" font-size="11.5" text-anchor="end" fill="#656d76">Nov 2023 – Feb 2024</text>
+<text x="178" y="212" font-size="12" fill="#656d76">Medical product mapping with NER + fuzzy matching, &gt;90% accuracy.</text>
+<rect x="178.0" y="226" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="212.1" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">FastAPI</text>
+<rect x="252.1" y="226" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="283.0" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Celery</text>
+<rect x="319.9" y="226" width="143.7" height="22" rx="11" fill="#4f46e5"/>
+<text x="391.8" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Microservices / BFF</text>
+<rect x="469.6" y="226" width="150.0" height="22" rx="11" fill="#4f46e5"/>
+<text x="544.6" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Domain-Driven Design</text>
+<rect x="625.6" y="226" width="80.7" height="22" rx="11" fill="#c026d3"/>
+<text x="665.9" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">NLP / NER</text>
+<rect x="178.8" y="254.75" width="148.5" height="20.5" rx="10.25" fill="none" stroke="#c026d3" stroke-width="1.5"/>
+<text x="253.0" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#c026d3">LLM APIs &amp; prompting</text>
+<rect x="334.0" y="254" width="80.7" height="22" rx="11" fill="#c026d3"/>
+<text x="374.4" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">LangChain</text>
+<rect x="421.4" y="254.75" width="142.2" height="20.5" rx="10.25" fill="none" stroke="#c026d3" stroke-width="1.5"/>
+<text x="492.5" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#c026d3">RAG / vector search</text>
+<rect x="570.4" y="254" width="124.8" height="22" rx="11" fill="#16a34a"/>
+<text x="632.8" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">SQL / PostgreSQL</text>
+<rect x="178.8" y="282.75" width="129.6" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="243.6" y="297" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">pgvector / Milvus</text>
+<circle cx="128" cy="358" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="336" width="674" height="128" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="362" font-size="14" font-weight="700" fill="#1f2328">ELGENN internal product</text>
+<text x="820" y="362" font-size="11.5" text-anchor="end" fill="#656d76">May 2023 – Nov 2023</text>
+<text x="178" y="382" font-size="12" fill="#656d76">LLM inference APIs, document RAG, agentic SQL pipeline.</text>
+<rect x="178.0" y="396" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="212.1" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">FastAPI</text>
+<rect x="252.1" y="396" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="283.0" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Celery</text>
+<rect x="319.9" y="396" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="350.8" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Locust</text>
+<rect x="387.7" y="396" width="150.0" height="22" rx="11" fill="#c026d3"/>
+<text x="462.7" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">LLM APIs &amp; prompting</text>
+<rect x="543.7" y="396" width="80.7" height="22" rx="11" fill="#c026d3"/>
+<text x="584.1" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">LangChain</text>
+<rect x="630.4" y="396" width="143.7" height="22" rx="11" fill="#c026d3"/>
+<text x="702.2" y="411" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">RAG / vector search</text>
+<rect x="178.0" y="424" width="156.3" height="22" rx="11" fill="#c026d3"/>
+<text x="256.1" y="439" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Agents &amp; tool-calling</text>
+<rect x="341.0" y="424.75" width="60.3" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="371.2" y="439" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">MLflow</text>
+<rect x="408.8" y="424.75" width="54.0" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="435.8" y="439" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">Kedro</text>
+<rect x="469.6" y="424" width="124.8" height="22" rx="11" fill="#16a34a"/>
+<text x="532.0" y="439" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">SQL / PostgreSQL</text>
+<rect x="600.4" y="424" width="131.1" height="22" rx="11" fill="#16a34a"/>
+<text x="665.9" y="439" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">pgvector / Milvus</text>
+<circle cx="128" cy="500" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="478" width="674" height="156" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="504" font-size="14" font-weight="700" fill="#1f2328">Software Consultant · Allianz</text>
+<text x="820" y="504" font-size="11.5" text-anchor="end" fill="#656d76">Dec 2022 – Apr 2023</text>
+<text x="178" y="524" font-size="12" fill="#656d76">Real-time ML inference microservices for insurance models.</text>
+<rect x="178.0" y="538" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="212.1" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">FastAPI</text>
+<rect x="252.1" y="538" width="143.7" height="22" rx="11" fill="#4f46e5"/>
+<text x="323.9" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Microservices / BFF</text>
+<rect x="401.8" y="538" width="118.5" height="22" rx="11" fill="#4f46e5"/>
+<text x="461.0" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Auth (JWT, 2FA)</text>
+<rect x="526.3" y="538" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="557.2" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Pytest</text>
+<rect x="594.1" y="538" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="628.1" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Angular</text>
+<rect x="668.9" y="538.75" width="110.7" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="724.3" y="553" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">Pandas / NumPy</text>
+<rect x="178.8" y="566.75" width="98.1" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="227.8" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">Scikit-learn</text>
+<rect x="283.6" y="566" width="124.8" height="22" rx="11" fill="#16a34a"/>
+<text x="346.0" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">SQL / PostgreSQL</text>
+<rect x="415.1" y="566.75" width="66.6" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="448.4" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">MongoDB</text>
+<rect x="488.5" y="566" width="61.8" height="22" rx="11" fill="#d97706"/>
+<text x="519.4" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Docker</text>
+<rect x="556.3" y="566" width="131.1" height="22" rx="11" fill="#d97706"/>
+<text x="621.8" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Kubernetes / Helm</text>
+<rect x="693.4" y="566" width="105.9" height="22" rx="11" fill="#d97706"/>
+<text x="746.4" y="581" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Jenkins CI/CD</text>
+<rect x="178.8" y="594.75" width="85.5" height="20.5" rx="10.25" fill="none" stroke="#d97706" stroke-width="1.5"/>
+<text x="221.5" y="609" font-size="11.5" font-weight="600" text-anchor="middle" fill="#d97706">Azure Blob</text>
+<circle cx="128" cy="670" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="648" width="674" height="100" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="674" font-size="14" font-weight="700" fill="#1f2328">Software Data Engineer · Algobrain</text>
+<text x="820" y="674" font-size="11.5" text-anchor="end" fill="#656d76">Sep 2022 – Apr 2023</text>
+<text x="178" y="694" font-size="12" fill="#656d76">Kafka event-driven workflows, OCR and speech-to-text integrations.</text>
+<rect x="178.0" y="708" width="55.5" height="22" rx="11" fill="#4f46e5"/>
+<text x="205.8" y="723" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Kafka</text>
+<rect x="240.2" y="708.75" width="129.6" height="20.5" rx="10.25" fill="none" stroke="#c026d3" stroke-width="1.5"/>
+<text x="305.1" y="723" font-size="11.5" font-weight="600" text-anchor="middle" fill="#c026d3">Document AI / OCR</text>
+<rect x="376.6" y="708" width="168.9" height="22" rx="11" fill="#c026d3"/>
+<text x="461.1" y="723" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Speech APIs (TTS / STT)</text>
+<text x="162" y="777" font-size="10.5" font-weight="700" letter-spacing="1" fill="#656d76">THROUGHOUT</text>
+<rect x="280.0" y="762" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="310.9" y="777" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Python</text>
+<rect x="348.6" y="762.75" width="167.4" height="20.5" rx="10.25" fill="none" stroke="#c026d3" stroke-width="1.5"/>
+<text x="432.2" y="777" font-size="11.5" font-weight="600" text-anchor="middle" fill="#c026d3">Speech APIs (TTS / STT)</text>
+<rect x="523.5" y="762.75" width="66.6" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="556.8" y="777" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">MongoDB</text>
+<rect x="597.5" y="762.75" width="104.4" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="649.8" y="777" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">Elasticsearch</text>
+<rect x="114" y="810" width="722" height="30" rx="15" fill="#24292f"/>
+<text x="134" y="829.5" font-size="13" font-weight="700" fill="#ffffff">UBIAI</text>
+<text x="830" y="829.5" font-size="11.5" text-anchor="end" fill="#ffffff" fill-opacity=".75">Nov 2021 – Sep 2022</text>
+<circle cx="128" cy="876" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="854" width="674" height="100" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="880" font-size="14" font-weight="700" fill="#1f2328">Annotation tool platform</text>
+<text x="820" y="880" font-size="11.5" text-anchor="end" fill="#656d76">May 2022 – Sep 2022</text>
+<text x="178" y="900" font-size="12" fill="#656d76">GPT-3 document understanding, LayoutLM serving moved to Lambda.</text>
+<rect x="178.0" y="914" width="131.1" height="22" rx="11" fill="#c026d3"/>
+<text x="243.6" y="929" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Document AI / OCR</text>
+<rect x="315.1" y="914" width="150.0" height="22" rx="11" fill="#c026d3"/>
+<text x="390.1" y="929" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">LLM APIs &amp; prompting</text>
+<circle cx="128" cy="990" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="968" width="674" height="128" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="994" font-size="14" font-weight="700" fill="#1f2328">NLP scientific documents platform</text>
+<text x="820" y="994" font-size="11.5" text-anchor="end" fill="#656d76">Dec 2021 – May 2022</text>
+<text x="178" y="1014" font-size="12" fill="#656d76">Django backend on AWS, ~27x faster batch ingestion.</text>
+<rect x="178.0" y="1028" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="208.9" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Django</text>
+<rect x="246.6" y="1028.75" width="66.6" height="20.5" rx="10.25" fill="none" stroke="#4f46e5" stroke-width="1.5"/>
+<text x="279.9" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#4f46e5">FastAPI</text>
+<rect x="320.6" y="1028.75" width="66.6" height="20.5" rx="10.25" fill="none" stroke="#4f46e5" stroke-width="1.5"/>
+<text x="353.9" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#4f46e5">Angular</text>
+<rect x="394.0" y="1028" width="168.9" height="22" rx="11" fill="#c026d3"/>
+<text x="478.4" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Gensim / topic modeling</text>
+<rect x="568.9" y="1028" width="112.2" height="22" rx="11" fill="#0d9488"/>
+<text x="625.0" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Pandas / NumPy</text>
+<rect x="687.8" y="1028.75" width="54.0" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="714.8" y="1043" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">Neo4j</text>
+<rect x="178.8" y="1056.75" width="110.7" height="20.5" rx="10.25" fill="none" stroke="#16a34a" stroke-width="1.5"/>
+<text x="234.1" y="1071" font-size="11.5" font-weight="600" text-anchor="middle" fill="#16a34a">S3 / Data Lake</text>
+<rect x="296.2" y="1056" width="61.8" height="22" rx="11" fill="#d97706"/>
+<text x="327.1" y="1071" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Docker</text>
+<text x="162" y="1125" font-size="10.5" font-weight="700" letter-spacing="1" fill="#656d76">THROUGHOUT</text>
+<rect x="280.0" y="1110" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="310.9" y="1125" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Python</text>
+<rect x="347.8" y="1110" width="80.7" height="22" rx="11" fill="#c026d3"/>
+<text x="388.1" y="1125" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">NLP / NER</text>
+<rect x="434.5" y="1110" width="55.5" height="22" rx="11" fill="#c026d3"/>
+<text x="462.2" y="1125" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">spaCy</text>
+<rect x="496.0" y="1110" width="49.2" height="22" rx="11" fill="#c026d3"/>
+<text x="520.6" y="1125" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">NLTK</text>
+<rect x="551.2" y="1110" width="162.6" height="22" rx="11" fill="#d97706"/>
+<text x="632.5" y="1125" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">AWS (Lambda, ECS, EC2)</text>
+<rect x="114" y="1158" width="722" height="30" rx="15" fill="#24292f"/>
+<text x="134" y="1177.5" font-size="13" font-weight="700" fill="#ffffff">ENICar, student years</text>
+<text x="830" y="1177.5" font-size="11.5" text-anchor="end" fill="#ffffff" fill-opacity=".75">2018 – 2021</text>
+<circle cx="128" cy="1224" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="1202" width="674" height="100" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="1228" font-size="14" font-weight="700" fill="#1f2328">ML Intern, graduation project · Talan</text>
+<text x="820" y="1228" font-size="11.5" text-anchor="end" fill="#656d76">Feb 2021 – Aug 2021</text>
+<text x="178" y="1248" font-size="12" fill="#656d76">Fake-news detection: satire and credibility models, bias metric, served as an API.</text>
+<rect x="178.0" y="1262" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="208.9" y="1277" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Python</text>
+<rect x="245.8" y="1262" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="279.9" y="1277" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">FastAPI</text>
+<rect x="319.9" y="1262" width="80.7" height="22" rx="11" fill="#c026d3"/>
+<text x="360.2" y="1277" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">NLP / NER</text>
+<rect x="406.6" y="1262" width="200.4" height="22" rx="11" fill="#0d9488"/>
+<text x="506.8" y="1277" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Web scraping (BS4, Selenium)</text>
+<circle cx="128" cy="1338" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="1316" width="674" height="100" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="1342" font-size="14" font-weight="700" fill="#1f2328">Data Science Intern · Travaris</text>
+<text x="820" y="1342" font-size="11.5" text-anchor="end" fill="#656d76">Jul 2020 – Aug 2020</text>
+<text x="178" y="1362" font-size="12" fill="#656d76">Geolocation clustering and a POI recommender prototype.</text>
+<rect x="178.0" y="1376" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="208.9" y="1391" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Python</text>
+<rect x="245.8" y="1376" width="181.5" height="22" rx="11" fill="#c026d3"/>
+<text x="336.6" y="1391" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Clustering &amp; recommenders</text>
+<rect x="433.3" y="1376" width="200.4" height="22" rx="11" fill="#0d9488"/>
+<text x="533.5" y="1391" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Web scraping (BS4, Selenium)</text>
+<rect x="639.7" y="1376" width="68.1" height="22" rx="11" fill="#16a34a"/>
+<text x="673.8" y="1391" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">MongoDB</text>
+<circle cx="128" cy="1452" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="1430" width="674" height="128" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="1456" font-size="14" font-weight="700" fill="#1f2328">Student projects</text>
+<text x="820" y="1456" font-size="11.5" text-anchor="end" fill="#656d76">2019 – 2020</text>
+<text x="178" y="1476" font-size="12" fill="#656d76">MERN web app, Discord bots, news scraper, Java desktop app. #1 in a Kaggle ML competition.</text>
+<rect x="178.0" y="1490" width="61.8" height="22" rx="11" fill="#4f46e5"/>
+<text x="208.9" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Python</text>
+<rect x="245.8" y="1490" width="49.2" height="22" rx="11" fill="#4f46e5"/>
+<text x="270.4" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Java</text>
+<rect x="301.0" y="1490" width="68.1" height="22" rx="11" fill="#4f46e5"/>
+<text x="335.1" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">C / C++</text>
+<rect x="375.1" y="1490" width="162.6" height="22" rx="11" fill="#4f46e5"/>
+<text x="456.4" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Node.js / React (MERN)</text>
+<rect x="544.5" y="1490.75" width="54.0" height="20.5" rx="10.25" fill="none" stroke="#4f46e5" stroke-width="1.5"/>
+<text x="571.5" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#4f46e5">Flask</text>
+<rect x="605.2" y="1490" width="137.4" height="22" rx="11" fill="#c026d3"/>
+<text x="673.9" y="1505" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Keras / TensorFlow</text>
+<rect x="178.8" y="1518.75" width="110.7" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="234.1" y="1533" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">Pandas / NumPy</text>
+<rect x="296.9" y="1518.75" width="98.1" height="20.5" rx="10.25" fill="none" stroke="#0d9488" stroke-width="1.5"/>
+<text x="346.0" y="1533" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d9488">Scikit-learn</text>
+<rect x="401.8" y="1518" width="200.4" height="22" rx="11" fill="#0d9488"/>
+<text x="502.0" y="1533" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Web scraping (BS4, Selenium)</text>
+<rect x="608.2" y="1518" width="55.5" height="22" rx="11" fill="#16a34a"/>
+<text x="636.0" y="1533" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">MySQL</text>
+<rect x="669.7" y="1518" width="68.1" height="22" rx="11" fill="#16a34a"/>
+<text x="703.8" y="1533" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">MongoDB</text>
+<circle cx="128" cy="1594" r="6" fill="#ffffff" stroke="#57606a" stroke-width="2.5"/>
+<rect x="162" y="1572" width="674" height="100" rx="12" fill="#f6f8fa" stroke="#d0d7de"/>
+<text x="178" y="1598" font-size="14" font-weight="700" fill="#1f2328">Java Developer Intern · Tunisie Telecom</text>
+<text x="820" y="1598" font-size="11.5" text-anchor="end" fill="#656d76">Aug 2019</text>
+<text x="178" y="1618" font-size="12" fill="#656d76">Java Swing + Apache POI utility for a regional recovery system.</text>
+<rect x="178.0" y="1632" width="49.2" height="22" rx="11" fill="#4f46e5"/>
+<text x="202.6" y="1647" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">Java</text>
+<rect x="233.2" y="1632" width="55.5" height="22" rx="11" fill="#16a34a"/>
+<text x="260.9" y="1647" font-size="11.5" font-weight="600" text-anchor="middle" fill="#ffffff">MySQL</text>
+<circle cx="33" cy="1712" r="5" fill="#4f46e5"/>
+<text x="44" y="1716" font-size="11.5" fill="#656d76">Backend &amp; Software</text>
+<circle cx="178.60000000000002" cy="1712" r="5" fill="#c026d3"/>
+<text x="189.60000000000002" y="1716" font-size="11.5" fill="#656d76">LLMs &amp; NLP</text>
+<circle cx="274.6" cy="1712" r="5" fill="#0d9488"/>
+<text x="285.6" y="1716" font-size="11.5" fill="#656d76">Data &amp; ML</text>
+<circle cx="364.40000000000003" cy="1712" r="5" fill="#16a34a"/>
+<text x="375.40000000000003" y="1716" font-size="11.5" fill="#656d76">Databases &amp; Storage</text>
+<circle cx="516.2" cy="1712" r="5" fill="#d97706"/>
+<text x="527.2" y="1716" font-size="11.5" fill="#656d76">Cloud &amp; DevOps</text>
+<text x="832" y="1716" font-size="10.5" text-anchor="end" fill="#656d76">generated by tools/skill_timeline.py</text>
+</svg>

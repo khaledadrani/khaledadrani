@@ -50,12 +50,23 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-timeline-vertical-dark.svg">
-    <img alt="Timeline of skill usage, 2019 to today" src="./assets/skill-timeline-vertical-light.svg" width="100%">
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-timeline-vertical-recent-dark.svg">
+    <img alt="Timeline of recent skill usage" src="./assets/skill-timeline-vertical-recent-light.svg" width="100%">
   </picture>
 </p>
 
-<p align="center"><sub>Want to filter it? Open the <a href="./docs/skills.html"><b>interactive explorer</b></a> (docs/skills.html): search, filter by category, click a skill to see how long and where it was used.</sub></p>
+<details>
+<summary><b>Earlier engagements</b> (2018 – 2024: Elyadata, UBIAI, student years)</summary>
+<br>
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./assets/skill-timeline-vertical-earlier-dark.svg">
+    <img alt="Timeline of skill usage, 2018 to 2024" src="./assets/skill-timeline-vertical-earlier-light.svg" width="100%">
+  </picture>
+</p>
+
+</details>
 
 <details>
 <summary><b>Also worked with</b> (not tied to a dated engagement)</summary>

@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="860" height="644" viewBox="0 0 860 644" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" role="img" aria-label="Vertical timeline of skills by engagement, 2019 to today">
+<rect width="860" height="644" rx="14" fill="#0d1117"/>
+<rect x=".5" y=".5" width="859" height="643" rx="14" fill="none" stroke="#30363d"/>
+<text x="28" y="42" font-size="22" font-weight="700" fill="#e6edf3">Skills, as they were used</text>
+<text x="28" y="64" font-size="12.5" fill="#8b949e">Newest first. Every chip is a tool from a real engagement, not a self-rated level.</text>
+<rect x="28" y="78" width="46" height="22" rx="11" fill="#818cf8"/>
+<text x="51" y="93" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">core</text>
+<text x="84" y="93" font-size="11.5" fill="#8b949e">central to the work</text>
+<rect x="228.75" y="78.75" width="76.5" height="20.5" rx="10.25" fill="none" stroke="#818cf8" stroke-width="1.5"/>
+<text x="267" y="93" font-size="11.5" font-weight="600" text-anchor="middle" fill="#818cf8">supporting</text>
+<text x="316" y="93" font-size="11.5" fill="#8b949e">used alongside</text>
+<line x1="128" y1="122" x2="128" y2="584" stroke="#30363d" stroke-width="3" stroke-linecap="round"/>
+<rect x="114" y="122" width="722" height="30" rx="15" fill="#e6edf3"/>
+<text x="134" y="141.5" font-size="13" font-weight="700" fill="#0d1117">Dedagroup AI US</text>
+<text x="830" y="141.5" font-size="11.5" text-anchor="end" fill="#0d1117" fill-opacity=".75">Sep 2026 – now</text>
+<circle cx="128" cy="188" r="6" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
+<rect x="162" y="166" width="674" height="184" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="178" y="192" font-size="14" font-weight="700" fill="#e6edf3">Senior Data Scientist, Gen AI &amp; LLMs</text>
+<text x="178" y="212" font-size="12" fill="#8b949e">ML and GenAI use cases, including credit scoring, on Python, Spring Boot and Dagster, deployed on Kubernetes.</text>
+<rect x="178.0" y="226" width="61.8" height="22" rx="11" fill="#818cf8"/>
+<text x="208.9" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Python</text>
+<rect x="245.8" y="226" width="93.3" height="22" rx="11" fill="#818cf8"/>
+<text x="292.4" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Spring Boot</text>
+<rect x="345.1" y="226" width="61.8" height="22" rx="11" fill="#818cf8"/>
+<text x="376.0" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Vue.js</text>
+<rect x="412.9" y="226" width="150.0" height="22" rx="11" fill="#e879f9"/>
+<text x="487.9" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">LLM APIs &amp; prompting</text>
+<rect x="568.9" y="226" width="143.7" height="22" rx="11" fill="#e879f9"/>
+<text x="640.8" y="241" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">RAG / vector search</text>
+<rect x="178.0" y="254" width="156.3" height="22" rx="11" fill="#e879f9"/>
+<text x="256.1" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Agents &amp; tool-calling</text>
+<rect x="340.3" y="254" width="124.8" height="22" rx="11" fill="#2dd4bf"/>
+<text x="402.7" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Machine learning</text>
+<rect x="471.1" y="254" width="112.2" height="22" rx="11" fill="#2dd4bf"/>
+<text x="527.2" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Credit scoring</text>
+<rect x="589.3" y="254" width="99.6" height="22" rx="11" fill="#2dd4bf"/>
+<text x="639.1" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Scikit-learn</text>
+<rect x="694.9" y="254" width="61.8" height="22" rx="11" fill="#2dd4bf"/>
+<text x="725.8" y="269" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">MLflow</text>
+<rect x="178.0" y="282" width="219.3" height="22" rx="11" fill="#2dd4bf"/>
+<text x="287.6" y="297" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Optuna (tuning &amp; observability)</text>
+<rect x="403.3" y="282" width="150.0" height="22" rx="11" fill="#2dd4bf"/>
+<text x="478.3" y="297" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">XAI (explainability)</text>
+<rect x="559.3" y="282" width="257.1" height="22" rx="11" fill="#2dd4bf"/>
+<text x="687.8" y="297" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Orchestration (Dagster, Airflow, ION)</text>
+<rect x="178.0" y="310" width="124.8" height="22" rx="11" fill="#4ade80"/>
+<text x="240.4" y="325" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">SQL / PostgreSQL</text>
+<rect x="308.8" y="310" width="131.1" height="22" rx="11" fill="#fbbf24"/>
+<text x="374.4" y="325" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Kubernetes / Helm</text>
+<rect x="114" y="374" width="722" height="30" rx="15" fill="#e6edf3"/>
+<text x="134" y="393.5" font-size="13" font-weight="700" fill="#0d1117">Infor IDeAS</text>
+<text x="830" y="393.5" font-size="11.5" text-anchor="end" fill="#0d1117" fill-opacity=".75">Apr 2024 – Aug 2026</text>
+<circle cx="128" cy="440" r="6" fill="#0d1117" stroke="#8b949e" stroke-width="2.5"/>
+<rect x="162" y="418" width="674" height="156" rx="12" fill="#161b22" stroke="#30363d"/>
+<text x="178" y="444" font-size="14" font-weight="700" fill="#e6edf3">Data Science Engineer</text>
+<text x="178" y="464" font-size="12" fill="#8b949e">Inventory optimization, forecasting and pricing on ERP data. 5 PoCs, 2 converted to subscriptions.</text>
+<rect x="178.0" y="478" width="61.8" height="22" rx="11" fill="#818cf8"/>
+<text x="208.9" y="493" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Python</text>
+<rect x="245.8" y="478" width="124.8" height="22" rx="11" fill="#2dd4bf"/>
+<text x="308.2" y="493" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Machine learning</text>
+<rect x="376.6" y="478" width="112.2" height="22" rx="11" fill="#2dd4bf"/>
+<text x="432.7" y="493" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Pandas / NumPy</text>
+<rect x="494.8" y="478" width="68.1" height="22" rx="11" fill="#2dd4bf"/>
+<text x="528.9" y="493" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">PySpark</text>
+<rect x="568.9" y="478" width="213.0" height="22" rx="11" fill="#2dd4bf"/>
+<text x="675.4" y="493" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Forecasting (XGBoost, Prophet)</text>
+<rect x="178.0" y="506" width="181.5" height="22" rx="11" fill="#2dd4bf"/>
+<text x="268.8" y="521" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Simulation &amp; optimization</text>
+<rect x="365.5" y="506" width="61.8" height="22" rx="11" fill="#2dd4bf"/>
+<text x="396.4" y="521" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">MLflow</text>
+<rect x="433.3" y="506" width="219.3" height="22" rx="11" fill="#2dd4bf"/>
+<text x="543.0" y="521" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Optuna (tuning &amp; observability)</text>
+<rect x="658.6" y="506" width="150.0" height="22" rx="11" fill="#2dd4bf"/>
+<text x="733.6" y="521" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">XAI (explainability)</text>
+<rect x="178.0" y="534" width="257.1" height="22" rx="11" fill="#2dd4bf"/>
+<text x="306.6" y="549" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">Orchestration (Dagster, Airflow, ION)</text>
+<rect x="441.9" y="534.75" width="117.0" height="20.5" rx="10.25" fill="none" stroke="#2dd4bf" stroke-width="1.5"/>
+<text x="500.4" y="549" font-size="11.5" font-weight="600" text-anchor="middle" fill="#2dd4bf">Tableau / Birst</text>
+<rect x="565.6" y="534" width="42.9" height="22" rx="11" fill="#4ade80"/>
+<text x="587.1" y="549" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">SQL</text>
+<rect x="614.5" y="534" width="112.2" height="22" rx="11" fill="#4ade80"/>
+<text x="670.6" y="549" font-size="11.5" font-weight="600" text-anchor="middle" fill="#0d1117">S3 / Data Lake</text>
+<circle cx="33" cy="614" r="5" fill="#818cf8"/>
+<text x="44" y="618" font-size="11.5" fill="#8b949e">Backend &amp; Software</text>
+<circle cx="178.60000000000002" cy="614" r="5" fill="#e879f9"/>
+<text x="189.60000000000002" y="618" font-size="11.5" fill="#8b949e">LLMs &amp; NLP</text>
+<circle cx="274.6" cy="614" r="5" fill="#2dd4bf"/>
+<text x="285.6" y="618" font-size="11.5" fill="#8b949e">Data &amp; ML</text>
+<circle cx="364.40000000000003" cy="614" r="5" fill="#4ade80"/>
+<text x="375.40000000000003" y="618" font-size="11.5" fill="#8b949e">Databases &amp; Storage</text>
+<circle cx="516.2" cy="614" r="5" fill="#fbbf24"/>
+<text x="527.2" y="618" font-size="11.5" fill="#8b949e">Cloud &amp; DevOps</text>
+<text x="832" y="618" font-size="10.5" text-anchor="end" fill="#8b949e">generated by tools/skill_timeline.py</text>
+</svg>
